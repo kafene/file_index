@@ -7,6 +7,7 @@
 * It's probably not safe for a public site, its just for dev environment.
 echo \kafene\index($_GET);
 */
+
 function index($input = array(), $wrap_html = true) {
   if(empty($input))
     $input = $_GET;
