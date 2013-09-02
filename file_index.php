@@ -7,7 +7,7 @@
  * It's probably not safe for a public site, its just for dev environment.
  */
 # print file_index();
-function file_index(array$input = [], $wrap_html = true)
+function file_index(array $input = [], $wrap_html = true)
 {
     if (empty($input)) {
         $input = $_GET;
